@@ -108,7 +108,7 @@ $('a[href*="#"]').on("click", function(e) {
     {
       scrollTop: $($(this).attr("href")).offset().top
     },
-    300,
+    400,
     "linear"
   );
 });
